@@ -15,10 +15,10 @@
 
 #![feature(globs)]
 
-#![allow(non_snake_case_functions)]
+#![allow(non_snake_case)]
 
 extern crate libc;
-extern crate std;
+// extern crate std;
 
 #[cfg(target_os="macos")]
 pub mod appkit;
